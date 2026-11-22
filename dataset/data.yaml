@@ -1,0 +1,15 @@
+# Rutas relativas a este archivo: funciona igual en local y en Colab.
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names:
+  - entrada_oxxo
+
+roboflow:
+  workspace: angels-workspace-jvtq0
+  project: oxxo_detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/angels-workspace-jvtq0/oxxo_detection/dataset/1

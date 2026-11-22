@@ -1,0 +1,19 @@
+# Dataset (se descarga de Roboflow; ver dataset/README.md)
+dataset/train/
+dataset/valid/
+dataset/test/
+
+# Salidas que genera Ultralytics
+runs/
+predicciones/
+yolo*.pt
+
+# Videos
+videos/
+*.mp4
+*.avi
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
